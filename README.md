@@ -1,5 +1,6 @@
 # kv_cache
-<img width="1217" alt="5f8894be1e8a819621c83125bf09643" src="https://github.com/user-attachments/assets/8dfae8a9-aeff-4f22-a41f-56265cb2f26b">
+![image](https://github.com/user-attachments/assets/a151a6f5-7567-4b8e-a62d-464d3fe688a8)
+
 
 # 代码运行
 
@@ -7,7 +8,7 @@
 
 + 添加KV_cache：`python kv_cache.py  "Alan Turing theorized that computers would one day become"  --n_tokens_to_generate 40`
 
-如图所示，在使用774M的模型的情况下，添加KV_cache后模型推理时间从16s降至8s。
+如图所示，在使用774M的模型的情况下，添加KV_cache后模型推理时间从39s降至7s。
 
 # 实现思路
 
